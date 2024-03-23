@@ -1,0 +1,18 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "```code\r npm init -y\r npm install express pug\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0",
+    "pug": "^3.0.2"
+  }
+}

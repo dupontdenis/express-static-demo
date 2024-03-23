@@ -1,0 +1,18 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+@import url("https://fonts.googleapis.com/css?family=Tangerine:400,700");
+
+body {
+  font-size: large;
+  font-family: 'Cabin', sans-serif;
+  color: #fff;
+  background-color: #108a93;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+}
+
+ol {
+  font-family: "Tangerine", Arial, sans-serif;
+  font-size: xx-large;
+}

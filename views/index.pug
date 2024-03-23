@@ -1,0 +1,10 @@
+extends layout
+ 
+mixin list-ord(tab,limit)
+ ol 
+  each obj in tab.sort((a, b) => a.name.localeCompare(b.name)).slice(0,limit)
+   li= obj.name
+ 
+block content
+  h1 Courses 
+  +list-ord(courses,nb)                                          
